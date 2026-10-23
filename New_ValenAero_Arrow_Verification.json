@@ -1,0 +1,562 @@
+{
+  "load_and_hotspot_checks": 95,
+  "native_animated_frames_verified": 120,
+  "inf_parse": "OK; not installed",
+  "original_sha256": "dfa36a8f74f6392a4358e088477bcac94a598695ee7b4433655ed620f4f85351",
+  "cursors": [
+    {
+      "file": "New_ValenAero_Arrow_Normal.cur",
+      "es": "Selección normal",
+      "en": "Normal Select",
+      "role": "Arrow",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          9,
+          7
+        ],
+        "48": [
+          14,
+          10
+        ],
+        "64": [
+          19,
+          13
+        ],
+        "96": [
+          28,
+          21
+        ],
+        "128": [
+          36,
+          28
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Help.cur",
+      "es": "Selección de ayuda",
+      "en": "Help Select",
+      "role": "Help",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          9,
+          7
+        ],
+        "48": [
+          14,
+          10
+        ],
+        "64": [
+          19,
+          13
+        ],
+        "96": [
+          28,
+          21
+        ],
+        "128": [
+          36,
+          28
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Working_Blue.ani",
+      "es": "Segundo plano · azul",
+      "en": "Working in Background · Blue",
+      "role": "AppStarting",
+      "frames": 40,
+      "hotspots": {
+        "32": [
+          9,
+          7
+        ],
+        "48": [
+          14,
+          10
+        ],
+        "64": [
+          19,
+          13
+        ],
+        "96": [
+          28,
+          21
+        ],
+        "128": [
+          36,
+          28
+        ]
+      },
+      "native_distinct_frames": 40
+    },
+    {
+      "file": "New_ValenAero_Arrow_Busy.ani",
+      "es": "Ocupado",
+      "en": "Busy",
+      "role": "Wait",
+      "frames": 40,
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      },
+      "native_distinct_frames": 40
+    },
+    {
+      "file": "New_ValenAero_Arrow_Precision.cur",
+      "es": "Selección con precisión",
+      "en": "Precision Select",
+      "role": "Crosshair",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Text.cur",
+      "es": "Selección de texto",
+      "en": "Text Select",
+      "role": "IBeam",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          16,
+          17
+        ],
+        "48": [
+          24,
+          25
+        ],
+        "64": [
+          32,
+          34
+        ],
+        "96": [
+          48,
+          51
+        ],
+        "128": [
+          64,
+          68
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Handwriting.cur",
+      "es": "Escritura a mano",
+      "en": "Handwriting",
+      "role": "NWPen",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          5,
+          27
+        ],
+        "48": [
+          7,
+          41
+        ],
+        "64": [
+          9,
+          54
+        ],
+        "96": [
+          14,
+          81
+        ],
+        "128": [
+          18,
+          109
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Unavailable.cur",
+      "es": "No disponible",
+      "en": "Unavailable",
+      "role": "No",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          9,
+          7
+        ],
+        "48": [
+          14,
+          10
+        ],
+        "64": [
+          19,
+          13
+        ],
+        "96": [
+          28,
+          21
+        ],
+        "128": [
+          36,
+          28
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Vertical.cur",
+      "es": "Ajuste vertical",
+      "en": "Vertical Resize",
+      "role": "SizeNS",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Horizontal.cur",
+      "es": "Ajuste horizontal",
+      "en": "Horizontal Resize",
+      "role": "SizeWE",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Diagonal_1.cur",
+      "es": "Ajuste diagonal 1",
+      "en": "Diagonal Resize 1",
+      "role": "SizeNWSE",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Diagonal_2.cur",
+      "es": "Ajuste diagonal 2",
+      "en": "Diagonal Resize 2",
+      "role": "SizeNESW",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Move.cur",
+      "es": "Mover",
+      "en": "Move",
+      "role": "SizeAll",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Alternate_Apple.cur",
+      "es": "Selección alternativa · Apple",
+      "en": "Alternate Select · Apple",
+      "role": "UpArrow",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          22,
+          5
+        ],
+        "48": [
+          33,
+          7
+        ],
+        "64": [
+          45,
+          10
+        ],
+        "96": [
+          67,
+          15
+        ],
+        "128": [
+          89,
+          20
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Link.cur",
+      "es": "Selección de vínculo",
+      "en": "Link Select",
+      "role": "Hand",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          11,
+          7
+        ],
+        "48": [
+          17,
+          10
+        ],
+        "64": [
+          23,
+          13
+        ],
+        "96": [
+          34,
+          20
+        ],
+        "128": [
+          46,
+          26
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Location.cur",
+      "es": "Seleccionar ubicación",
+      "en": "Location Select",
+      "role": "Pin",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          9,
+          7
+        ],
+        "48": [
+          14,
+          10
+        ],
+        "64": [
+          19,
+          13
+        ],
+        "96": [
+          28,
+          21
+        ],
+        "128": [
+          36,
+          28
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Person.cur",
+      "es": "Seleccionar persona",
+      "en": "Person Select",
+      "role": "Person",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          9,
+          7
+        ],
+        "48": [
+          14,
+          10
+        ],
+        "64": [
+          19,
+          13
+        ],
+        "96": [
+          28,
+          21
+        ],
+        "128": [
+          36,
+          28
+        ]
+      }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Working_Rainbow.ani",
+      "es": "Segundo plano · multicolor",
+      "en": "Working in Background · Rainbow",
+      "role": "AppStarting",
+      "frames": 40,
+      "hotspots": {
+        "32": [
+          9,
+          7
+        ],
+        "48": [
+          14,
+          10
+        ],
+        "64": [
+          19,
+          13
+        ],
+        "96": [
+          28,
+          21
+        ],
+        "128": [
+          36,
+          28
+        ]
+      },
+      "native_distinct_frames": 40
+    },
+    {
+      "file": "New_ValenAero_Arrow_Alternate_Custom.cur",
+      "es": "Selección alternativa · propia",
+      "en": "Alternate Select · Custom",
+      "role": "UpArrow",
+      "frames": 1,
+      "hotspots": {
+        "32": [
+          22,
+          7
+        ],
+        "48": [
+          33,
+          10
+        ],
+        "64": [
+          44,
+          13
+        ],
+        "96": [
+          67,
+          21
+        ],
+        "128": [
+          91,
+          28
+        ]
+      }
+    }
+  ]
+}
