@@ -53,7 +53,7 @@ def render_showroom(out,previews,roles):
     lines=['Inspiración valenciana.','Espíritu New Aero.'] if lang=='es' else ['Valencian roots.','A New Aero spirit.']
     for i,line in enumerate(lines):d.text((82,550+i*43),line,font=font(31),fill=muted)
     d.text((82,750),'robertrga / new-valenaero-arrow',font=font(23),fill=fg)
-    d.text((82,793),'17 funciones · 2 variantes · HiDPI' if lang=='es' else '17 roles · 2 variants · HiDPI',font=font(23),fill=muted)
+    d.text((82,793),'Original + Vivid · HiDPI',font=font(23),fill=muted)
     placements=[('01-normal',1030,225,255,-9),('15-link',1390,227,190,11),('06-text',1260,398,165,-8),('04-busy',1000,540,165,0),('11-diagonal-1',1435,554,175,-9),('18-working-rainbow',1202,694,190,7),('13-move',1480,802,155,-12),('19-alternate-custom',1460,28,180,-8)]
     for key,x,y,size,angle in placements:glyph(hero,previews[key][0],(x,y),size,angle)
     hero.convert('RGB').save(out/f'New_ValenAero_Arrow_Header_{lang}_{mode}.png')
@@ -61,7 +61,7 @@ def render_showroom(out,previews,roles):
     # Collection: an open grid instead of individual cards.
     board=background(1600,1390,dark);d=ImageDraw.Draw(board)
     d.text((82,62),'La colección.' if lang=='es' else 'The collection.',font=font(64,True),fill=fg)
-    d.text((84,151),'17 funciones de Windows + 2 variantes' if lang=='es' else '17 Windows roles + 2 variants',font=font(24),fill=muted)
+    d.text((84,151),'Colección Original · Vivid en Variantes' if lang=='es' else 'Original collection · See Variants for Vivid',font=font(24),fill=muted)
     d.text((1260,85),'19 / HiDPI',font=font(25,True),fill=accent)
     d.line((82,208,1518,208),fill='#373b43' if dark else '#d4d3ce',width=2)
     for i,role in enumerate(roles):

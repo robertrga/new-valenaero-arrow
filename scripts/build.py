@@ -239,7 +239,9 @@ Cuatro combinaciones: segundo plano azul/multicolor y selecci√≥n alternativa cl√
 for mode in ['light','dark']:
     spanish=spanish.replace(f'showroom/showroom-es-{mode}.png',f'showroom/New_ValenAero_Arrow_Showroom_es_{mode}.png').replace(f'showroom/animations-es-{mode}.gif',f'showroom/New_ValenAero_Arrow_Animations_es_{mode}.gif')
 (REPO/'LEEME.md').write_text(spanish,encoding='utf-8')
+from vivid import build as build_vivid
+build_vivid(REPO)
 with zipfile.ZipFile(REPO.parent/'New_ValenAero_Arrow.zip','w',zipfile.ZIP_DEFLATED) as z:
  for f in REPO.rglob('*'):
     if f.is_file() and not any(p in ['.cache','node_modules','__pycache__'] for p in f.relative_to(REPO).parts):z.write(f,f.relative_to(REPO.parent))
-print(json.dumps({'cursors':19,'png':8,'gif':4,'native_checks':95,'animation_frames':120,'output':str(REPO)}))
+print(json.dumps({'cursors':21,'png':12,'gif':8,'native_checks':105,'animation_frames':200,'output':str(REPO)}))

@@ -1,6 +1,6 @@
 {
-  "load_and_hotspot_checks": 95,
-  "native_animated_frames_verified": 120,
+  "load_and_hotspot_checks": 105,
+  "native_animated_frames_verified": 200,
   "inf_parse": "OK; not installed",
   "original_sha256": "dfa36a8f74f6392a4358e088477bcac94a598695ee7b4433655ed620f4f85351",
   "cursors": [
@@ -557,6 +557,68 @@
           28
         ]
       }
+    },
+    {
+      "file": "New_ValenAero_Arrow_Busy_Vivid.ani",
+      "es": "Ocupado · Vivid",
+      "en": "Busy · Vivid",
+      "role": "Wait",
+      "frames": 40,
+      "hotspots": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      },
+      "native_distinct_frames": 40,
+      "variant": "Vivid"
+    },
+    {
+      "file": "New_ValenAero_Arrow_Working_Rainbow_Vivid.ani",
+      "es": "Segundo plano · multicolor · Vivid",
+      "en": "Working in Background · Rainbow · Vivid",
+      "role": "AppStarting",
+      "frames": 40,
+      "hotspots": {
+        "32": [
+          9,
+          7
+        ],
+        "48": [
+          14,
+          10
+        ],
+        "64": [
+          19,
+          13
+        ],
+        "96": [
+          28,
+          21
+        ],
+        "128": [
+          36,
+          28
+        ]
+      },
+      "native_distinct_frames": 40,
+      "variant": "Vivid"
     }
   ]
 }

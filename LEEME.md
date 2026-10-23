@@ -9,7 +9,7 @@
 
 [English](README.md) · [Cursores](cursors/) · [Licencia](LICENSE)
 
-19 archivos para 17 funciones de Windows y dos variantes adicionales. Los cursores con flecha de ayuda, segundo plano, no disponible, ubicación y persona utilizan la flecha propia. Selección alternativa ofrece una flecha clásica o la flecha propia reflejada, con hotspot también reflejado.
+21 archivos para 17 funciones de Windows y cuatro variantes adicionales (incluidas dos Vivid). Los cursores con flecha de ayuda, segundo plano, no disponible, ubicación y persona utilizan la flecha propia. Selección alternativa ofrece una flecha clásica o la flecha propia reflejada, con hotspot también reflejado.
 
 ## Colección
 
@@ -28,8 +28,17 @@
   <img alt="Animaciones azul, multicolor y ocupado" src="showroom/New_ValenAero_Arrow_Animations_es_light.gif">
 </picture>
 
+### Vivid
+
+Colores más intensos opcionales para Ocupado y Segundo plano · Multicolor. Se conservan los colores originales, la flecha propia, la transparencia, los hotspots y la velocidad. La animación azul no cambia; los esquemas Azul + Vivid aplican Vivid solo a Ocupado.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Vivid_es_dark.gif">
+  <img alt="Original / Vivid" src="showroom/New_ValenAero_Arrow_Vivid_es_light.gif">
+</picture>
+
 ## Instalación
 
-Para instalar después de revisar: extrae la carpeta completa, clic derecho en New_ValenAero_Arrow_Install.inf > Mostrar más opciones > Instalar. Registra cuatro esquemas, sin aplicar ninguno. Después elige uno en Propiedades del mouse > Punteros. Puedes regresar a tu esquema anterior desde ese panel.
+Para instalar después de revisar: extrae la carpeta completa, clic derecho en New_ValenAero_Arrow_Install.inf > Mostrar más opciones > Instalar. Registra ocho esquemas, sin aplicar ninguno. Después elige uno en Propiedades del mouse > Punteros. Puedes regresar a tu esquema anterior desde ese panel.
 
-Cuatro combinaciones: segundo plano azul/multicolor y selección alternativa clásica/reflejada. Ver README.md para créditos, licencia y comprobaciones. No se ha instalado ni aplicado nada durante la preparación.
+Ocho combinaciones (Original/Vivid): segundo plano azul/multicolor y selección alternativa clásica/reflejada. Ver README.md para créditos, licencia y comprobaciones. No se ha instalado ni aplicado nada durante la preparación.

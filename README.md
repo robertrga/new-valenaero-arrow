@@ -11,7 +11,7 @@
 
 A free and open-source cursor theme for Windows, built around a compact black arrow, a white outline and a subtle grey halo.
 
-17 Windows cursor roles, plus two optional variants. Five resolutions: 32, 48, 64, 96 and 128 px. The normal cursor is an unmodified copy of the original file. Help, both background animations, unavailable, location and person use the custom arrow. The custom alternate is its horizontal mirror with a mirrored hotspot.
+17 Windows cursor roles, plus four optional variants (21 files). Five resolutions: 32, 48, 64, 96 and 128 px. The normal cursor is an unmodified copy of the original file. Help, both background animations, unavailable, location and person use the custom arrow. The custom alternate is its horizontal mirror with a mirrored hotspot.
 
 ## Showroom
 
@@ -30,15 +30,24 @@ A free and open-source cursor theme for Windows, built around a compact black ar
   <img alt="Blue, rainbow and busy animations" src="showroom/New_ValenAero_Arrow_Animations_en_light.gif">
 </picture>
 
+### Vivid
+
+Optional richer colours for Busy and Working in Background · Rainbow. The original colours remain available. Vivid preserves the custom arrow, alpha, hotspots and animation timing. The Blue animation is unchanged; Blue + Vivid schemes use Vivid for Busy only.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Vivid_en_dark.gif">
+  <img alt="Original / Vivid" src="showroom/New_ValenAero_Arrow_Vivid_en_light.gif">
+</picture>
+
 ## Installation
 
-Extract the complete folder. Right-click `New_ValenAero_Arrow_Install.inf` > Show more options > Install. This copies the cursors and registers four schemes; it does not activate one. Open Mouse Properties > Pointers, choose a `New ValenAero Arrow` scheme and Apply. Choose the previous scheme to restore its appearance.
+Extract the complete folder. Right-click `New_ValenAero_Arrow_Install.inf` > Show more options > Install. This copies the cursors and registers eight schemes; it does not activate one. Open Mouse Properties > Pointers, choose a `New ValenAero Arrow` scheme and Apply. Choose the previous scheme to restore its appearance.
 
-The four schemes combine Blue/Rainbow with Apple Alternate/Custom Alternate. The filenames also allow individual manual selection.
+The eight schemes combine Original/Vivid, Blue/Rainbow and Apple Alternate/Custom Alternate. The filenames also allow individual manual selection.
 
 ## Validation
 
-Windows loaded all 19 files at all five sizes and confirmed their hotspots (95 checks). DrawIconEx rendered 40 distinct frames for each of the three animations. The INF passed the Windows parser; it was not executed. ANI timing follows upstream `win_delay=1`: 1/60 s per frame. GIF previews approximate it using the GIF format's 10 ms time units. No system settings were changed during generation.
+Windows loaded all 21 files at all five sizes and confirmed their hotspots (105 checks). DrawIconEx rendered 40 distinct frames for each of the five animations. The INF passed the Windows parser; it was not executed. ANI timing follows upstream `win_delay=1`: 1/60 s per frame. GIF previews approximate it using the GIF format's 10 ms time units. No system settings were changed during generation.
 
 ## Credits and source
 
