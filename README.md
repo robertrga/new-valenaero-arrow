@@ -15,17 +15,20 @@ A free and open-source cursor theme for Windows, built around a compact black ar
 
 ## Showroom
 
-![Light showroom](showroom/New_ValenAero_Arrow_Showroom_en_light.png)
-![Dark showroom](showroom/New_ValenAero_Arrow_Showroom_en_dark.png)
-![Light animations](showroom/New_ValenAero_Arrow_Animations_en_light.gif)
-![Dark animations](showroom/New_ValenAero_Arrow_Animations_en_dark.gif)
-
-[Spanish showroom, light](showroom/New_ValenAero_Arrow_Showroom_es_light.png) · [Spanish showroom, dark](showroom/New_ValenAero_Arrow_Showroom_es_dark.png) · [Spanish animations, light](showroom/New_ValenAero_Arrow_Animations_es_light.gif) · [Spanish animations, dark](showroom/New_ValenAero_Arrow_Animations_es_dark.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Showroom_en_dark.png">
+  <img alt="Cursor collection" src="showroom/New_ValenAero_Arrow_Showroom_en_light.png">
+</picture>
 
 ## Variants
 
 * Working in Background: blue disc or rainbow Busy wheel.
 * Alternate Select: classic right arrow or mirrored custom arrow.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Animations_en_dark.gif">
+  <img alt="Blue, rainbow and busy animations" src="showroom/New_ValenAero_Arrow_Animations_en_light.gif">
+</picture>
 
 ## Installation
 

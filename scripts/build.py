@@ -161,17 +161,20 @@ A free and open-source cursor theme for Windows, built around a compact black ar
 
 ## Showroom
 
-![Light showroom](showroom/showroom-en-light.png)
-![Dark showroom](showroom/showroom-en-dark.png)
-![Light animations](showroom/animations-en-light.gif)
-![Dark animations](showroom/animations-en-dark.gif)
-
-[Spanish showroom, light](showroom/showroom-es-light.png) · [Spanish showroom, dark](showroom/showroom-es-dark.png) · [Spanish animations, light](showroom/animations-es-light.gif) · [Spanish animations, dark](showroom/animations-es-dark.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Showroom_en_dark.png">
+  <img alt="Cursor collection" src="showroom/New_ValenAero_Arrow_Showroom_en_light.png">
+</picture>
 
 ## Variants
 
 * Working in Background: blue disc or rainbow Busy wheel.
 * Alternate Select: classic right arrow or mirrored custom arrow.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Animations_en_dark.gif">
+  <img alt="Blue, rainbow and busy animations" src="showroom/New_ValenAero_Arrow_Animations_en_light.gif">
+</picture>
 
 ## Installation
 
@@ -206,12 +209,28 @@ spanish='''# New ValenAero Arrow
 
 **Inspiración valenciana. Espíritu New Aero.**
 
+[English](README.md) · [Cursores](cursors/) · [Licencia](LICENSE)
+
 19 archivos para 17 funciones de Windows y dos variantes adicionales. Los cursores con flecha de ayuda, segundo plano, no disponible, ubicación y persona utilizan la flecha propia. Selección alternativa ofrece una flecha clásica o la flecha propia reflejada, con hotspot también reflejado.
 
-![Showroom claro](showroom/showroom-es-light.png)
-![Showroom oscuro](showroom/showroom-es-dark.png)
-![Animaciones claras](showroom/animations-es-light.gif)
-![Animaciones oscuras](showroom/animations-es-dark.gif)
+## Colección
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Showroom_es_dark.png">
+  <img alt="Colección de cursores" src="showroom/New_ValenAero_Arrow_Showroom_es_light.png">
+</picture>
+
+## Variantes
+
+* Segundo plano: disco azul o ruleta multicolor.
+* Selección alternativa: flecha clásica o reflejada.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Animations_es_dark.gif">
+  <img alt="Animaciones azul, multicolor y ocupado" src="showroom/New_ValenAero_Arrow_Animations_es_light.gif">
+</picture>
+
+## Instalación
 
 Para instalar después de revisar: extrae la carpeta completa, clic derecho en New_ValenAero_Arrow_Install.inf > Mostrar más opciones > Instalar. Registra cuatro esquemas, sin aplicar ninguno. Después elige uno en Propiedades del mouse > Punteros. Puedes regresar a tu esquema anterior desde ese panel.
 

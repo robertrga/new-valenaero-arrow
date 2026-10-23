@@ -7,12 +7,28 @@
 
 **Inspiración valenciana. Espíritu New Aero.**
 
+[English](README.md) · [Cursores](cursors/) · [Licencia](LICENSE)
+
 19 archivos para 17 funciones de Windows y dos variantes adicionales. Los cursores con flecha de ayuda, segundo plano, no disponible, ubicación y persona utilizan la flecha propia. Selección alternativa ofrece una flecha clásica o la flecha propia reflejada, con hotspot también reflejado.
 
-![Showroom claro](showroom/New_ValenAero_Arrow_Showroom_es_light.png)
-![Showroom oscuro](showroom/New_ValenAero_Arrow_Showroom_es_dark.png)
-![Animaciones claras](showroom/New_ValenAero_Arrow_Animations_es_light.gif)
-![Animaciones oscuras](showroom/New_ValenAero_Arrow_Animations_es_dark.gif)
+## Colección
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Showroom_es_dark.png">
+  <img alt="Colección de cursores" src="showroom/New_ValenAero_Arrow_Showroom_es_light.png">
+</picture>
+
+## Variantes
+
+* Segundo plano: disco azul o ruleta multicolor.
+* Selección alternativa: flecha clásica o reflejada.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="showroom/New_ValenAero_Arrow_Animations_es_dark.gif">
+  <img alt="Animaciones azul, multicolor y ocupado" src="showroom/New_ValenAero_Arrow_Animations_es_light.gif">
+</picture>
+
+## Instalación
 
 Para instalar después de revisar: extrae la carpeta completa, clic derecho en New_ValenAero_Arrow_Install.inf > Mostrar más opciones > Instalar. Registra cuatro esquemas, sin aplicar ninguno. Después elige uno en Propiedades del mouse > Punteros. Puedes regresar a tu esquema anterior desde ese panel.
 
